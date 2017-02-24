@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+  <title>Test Suite</title>
+</head>
+<body>
+<table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
+<tr><td><b>Test Suite</b></td></tr>
+<tr><td><a href="../../../Pictures/Desktop/sessionAttrs.html">LoginSessionNotSaved</a></td></tr>
+<tr><td><a href="PeriodicalSessionAttrs.html">AdminSessionNotSaved</a></td></tr>
+<tr><td><a href="SessionAttributes">LoginAdmin</a></td></tr>
+<tr><td><a href="PeriodicalAddWorks.html">PeriodicalDeleteWorks</a></td></tr>
+<tr><td><a href="SessionAttributes">PeriodicalAddWorks</a></td></tr>
+</tbody></table>
+</body>
+</html>

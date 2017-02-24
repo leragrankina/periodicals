@@ -1,0 +1,58 @@
+@navbar-background: #e3f2fd;
+@navbar-dark-background: spin(@navbar-background, 20);
+
+body{
+  height: 100%;
+  padding-bottom: 20px;
+}
+
+form{
+    margin: 0;
+  padding:0;
+}
+
+form button.btn-link{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+.navbar-default{
+    background: @navbar-background;
+    .navbar-nav > .active>a{
+        background: @navbar-dark-background;
+      &:hover{
+          background: spin(@navbar-dark-background, 10);
+      }
+    }
+}
+
+.text-highlight{
+  background-color: yellow;
+}
+
+.travolta{
+  height: 100%;
+  width: 100%;
+  background-image: url('../images/travolta.gif');
+  background-size:cover;
+  color: white;
+}
+
+.travolta h1{
+  text-align: center;
+  margin: 0;
+  padding:0;
+}
+
+footer{
+  position: absolute;
+  bottom: 10px;
+  left:0;
+  text-align: center;
+  width:100%;
+}

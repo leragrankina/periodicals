@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+  <title>Test Suite</title>
+</head>
+<body>
+<table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
+<tr><td><b>Test Suite</b></td></tr>
+<tr><td><a href="assertEditAndAddPeriodicalsSession.html">assertEditAndAddPeriodicalsSession</a></td></tr>
+<tr><td><a href="unauthorizedUserProfileTest.html">unauthorizedUserProfileTest</a></td></tr>
+<tr><td><a href="registerTest.html">registerTest</a></td></tr>
+<tr><td><a href="rechargeTest.html">subscribeTest</a></td></tr>
+<tr><td><a href="editPeriodicalMessageTest.html">editPeriodicalMessageTest</a></td></tr>
+<tr><td><a href="aditPeriodicalSessionTest.html">aditPeriodicalSessionTest</a></td></tr>
+<tr><td><a href="deletePeriodicalTest.html">deletePeriodicalTest</a></td></tr>
+<tr><td><a href="blocked_account_errorIsInProps.html">blocked_account_errorIsInProps</a></td></tr>
+<tr><td><a href="changeLocaleWorks.html">changeUserLocaleWorks</a></td></tr>
+<tr><td><a href="UTF-8Represents.html">Utf-8RepresentsRight</a></td></tr>
+<tr><td><a href="amountInputValidation.html">amountInputValidation</a></td></tr>
+<tr><td><a href="shortPasswordTest.html">shortPasswordTest</a></td></tr>
+<tr><td><a href="longLoginTest.html">longLoginTest</a></td></tr>
+<tr><td><a href="negativePricePeriodicalTest.html">negativePricePeriodicalTest</a></td></tr>
+<tr><td><a href="periodicalEditNotFoundTest.html">periodicalEditNotFoundTest</a></td></tr>
+<tr><td><a href="i18nPriceErrorTest.html">i18nPriceErrorTest</a></td></tr>
+<tr><td><a href="alertDismissibleTest.html">alertDismissibleTest</a></td></tr>
+<tr><td><a href="charEncodingOfINputTest.html">charEncodingOfINputTest</a></td></tr>
+<tr><td><a href="onLogoutCookieDeleted.html">onLogoutCookieDeleted</a></td></tr>
+<tr><td><a href="userLocaleSetsOnLogin.html">userLocaleSetsOnLogin</a></td></tr>
+<tr><td><a href="anonymousUserLocaleChange.html">anonymousUserLocaleChange</a></td></tr>
+<tr><td><a href="themeFilterUrlTest.html">themeFilterUrlTest</a></td></tr>
+<tr><td><a href="periodWorksAsClass.html">periodWorksAsClassTest</a></td></tr>
+<tr><td><a href="assertThemeValuesInAdmin.html">assertThemeValuesInAdmin</a></td></tr>
+<tr><td><a href="assertPeriodValuesRenderedInAdmin.html">assertPeriodValuesRenderedInAdmin</a></td></tr>
+<tr><td><a href="blockedUserSessionIsInvalidated.html">blockedUserCannotAccessAnyPage</a></td></tr>
+<tr><td><a href="adminNotBlockedByBlockUser.html">adminNotBlockedByBlockUser</a></td></tr>
+<tr><td><a href="blockPageI18n-ed.html">blockPageI18n-ed</a></td></tr>
+<tr><td><a href="blockPageTranslated.html">blockPageIsTranslatedIntoRussian</a></td></tr>
+<tr><td><a href="register_jspIsI18n-ed.html">register_jspI18n-ed</a></td></tr>
+<tr><td><a href="loginActionTest.html">loginActionTest</a></td></tr>
+<tr><td><a href="emailErrorI18n-ed.html">emailErrorI18n-ed</a></td></tr>
+<tr><td><a href="emailFieldWithErrors.html">emailFieldWithErrors</a></td></tr>
+<tr><td><a href="emailValidationClient.html">emailValidationClient</a></td></tr>
+<tr><td><a href="regWithEmailTest.html">regWithEmailTest</a></td></tr>
+<tr><td><a href="showsEmailValidationError.html">showsEmailValidationError</a></td></tr>
+<tr><td><a href="adminLoginI18n-ed.html">adminLoginI18n-ed</a></td></tr>
+<tr><td><a href="AdminLoginSessionAttrs.html">AdminLoginSessionAttrs</a></td></tr>
+<tr><td><a href="captchaErrorI18n-ed.html">captchaErrorI18n-ed</a></td></tr>
+<tr><td><a href="captchaI18n-ed.html">captchaI18n-ed</a></td></tr>
+<tr><td><a href="captchaMustBeClickedToReg.html">captchaMustBeClickedToReg</a></td></tr>
+<tr><td><a href="copyrightI18n-ed.html">copyrightI18n-ed</a></td></tr>
+<tr><td><a href="editPeriodicalTest.html">editPeriodicalTest</a></td></tr>
+<tr><td><a href="insertPeriodicalTest.html">insertPeriodicalTest</a></td></tr>
+<tr><td><a href="LoginAdmin.html">LoginAdmin</a></td></tr>
+<tr><td><a href="LoginSesstionAttrs.html">LoginSesstionAttrs</a></td></tr>
+<tr><td><a href="no_user_error_i18ned.html">no_user_error_i18ned</a></td></tr>
+<tr><td><a href="noUserErrorI18n-ed.html">noUserErrorI18n-ed</a></td></tr>
+<tr><td><a href="PeriodicalDelete.html">PeriodicalDelete</a></td></tr>
+<tr><td><a href="PeriodicalSessionAttrs.html">PeriodicalSessionAttrs</a></td></tr>
+<tr><td><a href="periodicalsFilterTest.html">periodicalsFilterTest</a></td></tr>
+<tr><td><a href="rechargeActionTest.html">rechargeActionTest</a></td></tr>
+<tr><td><a href="rechargeValidationClient.html">rechargeValidationClient</a></td></tr>
+<tr><td><a href="registeredUserPresentInAdmin.html">registeredUserPresentInAdmin</a></td></tr>
+<tr><td><a href="testUserBlocking.html">testUserBlocking</a></td></tr>
+<tr><td><a href="reportFormTest.html">ReportFormTest</a></td></tr>
+<tr><td><a href="reportFormI18n-ed.html">reportformI18n-ed</a></td></tr>
+<tr><td><a href="filter&sortWorkTogether.html">filter&sortWorkTogether</a></td></tr>
+</tbody></table>
+</body>
+</html>

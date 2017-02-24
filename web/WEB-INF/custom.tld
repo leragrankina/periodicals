@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd" version="2.0" >
+        <tlib-version>1.0</tlib-version>
+        <short-name>custom</short-name>
+        <uri>SummaryTask4.grankina.nure.ua</uri>
+        <function>
+                <name>replaceAll</name>
+                <function-class>ua.nure.grankina.periodicals.web.utils.ElFunctions</function-class>
+                <function-signature>java.lang.String replaceAll(java.lang.String,java.lang.String,java.lang.String)</function-signature>
+        </function>
+        <tag>
+                <description>Copyright message</description>
+                <name>year</name>
+                <tag-class>ua.nure.grankina.periodicals.web.utils.CurrentYearTag</tag-class>
+                <body-content>empty</body-content>
+        </tag>
+        </taglib>

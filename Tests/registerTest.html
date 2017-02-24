@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost:8081/" />
+<title>registerTest</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">registerTest</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/pages/register</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=button.btn-success</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=span.help-block</td>
+	<td>This field should not be empty</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[2]/span</td>
+	<td>This field should not be empty</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[3]/span</td>
+	<td>This field should not be empty</td>
+</tr>
+<tr>
+	<td>refresh</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementNotPresent</td>
+	<td>css=span.help-block</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementNotPresent</td>
+	<td>//div[2]/span.help-block</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementNotPresent</td>
+	<td>//div[3]/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>id=loginId</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=password1Id</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>id=password2Id</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=loginId</td>
+	<td>jfkdfjkf</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=emailId</td>
+	<td>dim-mension@mail.ru</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.recaptcha-checkbox-checkmark</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=button.btn.btn-success</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=button.btn.btn-success</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>id=loginId</td>
+	<td>jfkdfjkf</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=span.help-block</td>
+	<td>This field should not be empty</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[3]/span</td>
+	<td>This field should not be empty</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/pages/register</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=loginId</td>
+	<td>user</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=password1Id</td>
+	<td>user</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=password2Id</td>
+	<td>djfkdfjk</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=emailId</td>
+	<td>dim-mension@mail.ru</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.recaptcha-checkbox-checkmark</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=button.btn.btn-success</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>id=loginId</td>
+	<td>user</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>id=password1Id</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>id=password2Id</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=p.text-danger</td>
+	<td>Passwords don't match</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=loginId</td>
+	<td>lera</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=password1Id</td>
+	<td>lera</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=password2Id</td>
+	<td>lera</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=emailId</td>
+	<td>dim-mension@mail.ru</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.recaptcha-checkbox-checkmark</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=button.btn.btn-success</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=button.btn.btn-success</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=p.text-danger</td>
+	<td>User with such login exists</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>id=loginId</td>
+	<td>lera</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>id=password1Id</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>id=password2Id</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=loginId</td>
+	<td>user</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=password1Id</td>
+	<td>useruser</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=password2Id</td>
+	<td>useruser</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=emailId</td>
+	<td>dim-mension@mail.ru</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.recaptcha-checkbox-checkmark</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=button.btn.btn-success</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=button.btn.btn-success</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Registration Successful</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=p.text-success &gt; a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>id=loginId</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=loginId</td>
+	<td>user</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=passwordId</td>
+	<td>useruser</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=strong</td>
+	<td>user</td>
+</tr>
+</tbody></table>
+</body>
+</html>

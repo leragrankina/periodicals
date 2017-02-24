@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost:8081/" />
+<title>emailSent</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">emailSent</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/pages/register</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=loginId</td>
+	<td>lera2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=password1Id</td>
+	<td>leralera</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=password2Id</td>
+	<td>leralera</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=emailId</td>
+	<td>valeriia.hrankina@nure.ua</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=button.btn.btn-success</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>https://mail.google.com/mail/u/0/h/14438wkgq82oi/?&amp;</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[2]/tbody/tr/td[2]/b</td>
+	<td>summarytask4.grankina</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=t</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=nvp_a_tr</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

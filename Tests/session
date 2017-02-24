@@ -1,0 +1,19 @@
+import junit.framework.Test;
+import junit.framework.TestSuite;
+
+public class Session {
+
+  public static Test suite() {
+    TestSuite suite = new TestSuite();
+    suite.addTestSuite(LoginSessionNotSaved.class);
+    suite.addTestSuite(AdminSessionNotSaved.class);
+    suite.addTestSuite(LoginAdmin.class);
+    suite.addTestSuite(PeriodicalDeleteWorks.class);
+    suite.addTestSuite(PeriodicalAddWorks.class);
+    return suite;
+  }
+
+  public static void main(String[] args) {
+    junit.textui.TestRunner.run(suite());
+  }
+}
